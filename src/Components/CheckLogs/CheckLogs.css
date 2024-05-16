@@ -1,0 +1,124 @@
+.main .main-container h2{
+    background-color: transparent;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #FF7F61;
+    width: 300px;
+}
+
+
+.check-up-info {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* background-color: #f9f9f9; */
+    margin: 0 auto;
+    width: 1050px;
+    margin-top: 10px;
+  }
+  /* 
+  .check-up-info p {
+    margin: 5px 0 5px 0; 
+    padding:5px;
+    max-width: 475px;
+    height: 30px;
+    background-color: transparent;
+    
+  } */
+  .check-up-info h3{
+    margin-left: 12px;
+  }
+  .check-up-info .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .check-up-info .grid-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 475px;
+    margin-left: 10px;
+}
+.medicines-container,
+.equipments-container {
+    grid-column: span 2;
+}
+.medicines-container {
+    grid-column: 1 / 3; /* Span both columns */
+    margin-bottom: 10px;
+}
+.medicines-container ul{
+  background-color: transparent;
+}
+.medicines-container li{
+  background-color: transparent;
+}
+
+.equipments-container {
+    grid-column: 1 / 3; /* Span both columns */
+}
+.equipments-container ul {
+  background-color: transparent;
+}
+.equipments-container li{
+  background-color: transparent;
+}
+
+  .check-up-info .equip-medi{
+    width: 550px;
+    margin-left: 500px;
+  }
+  .check-up-info .log-equipments{
+    background-color: transparent;
+    max-width: 500px;
+  }
+  .check-up-info .log-medicines{
+    background-color: transparent;
+    max-width: 500px;
+  }
+  .check-up-info h4 {
+    margin: 10px 0 5px 0;
+    background-color: transparent;
+  }
+  
+  .check-up-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .check-up-info ul li {
+    margin-bottom: 5px;
+    }
+  
+  .check-up-info strong {
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 7px;
+  }
+  
+  /* Style the border of each div */
+  .check-up-info > div {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  /* Add some margin at the top of the first div */
+  .check-up-info > div:first-child {
+    margin-top: 10px;
+  }
+  
+  /* Style the ul inside divs */
+  .check-up-info > div ul {
+    margin-top: 5px;
+  }
+  
+  /* Style the li inside divs */
+  .check-up-info > div ul li {
+    margin-bottom: 3px;
+  }
+  

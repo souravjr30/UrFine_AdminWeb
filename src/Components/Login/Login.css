@@ -1,0 +1,105 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(132deg, rgba(255,255,255,1) 0%, rgba(255,227,220,1) 50%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 150px; */
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 800px;
+}
+.container img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 200px;
+    top: 150px;
+    background-color: transparent;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.text{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: transparent;
+    
+}
+.underline{
+    width: 60px;
+    height: 4px;
+    background: #FF9D86;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: transparent;
+}
+ .input-main{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    background: #e2e2e2;
+    border-radius: 10px;
+}
+
+.input-main input{
+    height: 50px;
+    width: 350px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: 	black;
+    font-size: 15px;
+    padding: 12px 20px;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+    background-color: white;
+}
+.submit-container .submit{
+    background-color: white;
+}
+.submit button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #FF9D86;
+}
+
+.submit :hover{
+    background: #FF9D86;
+    color: white;
+    transition: ease-in-out .5s;
+}
+

@@ -1,0 +1,29 @@
+/* card.css */
+.front .calender{
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+}
+.front .custom-calendar {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    
+
+}
+
+.react-calendar__tile--now {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.react-calendar__tile--active {
+    background-color: white;
+}
+
+.react-calendar__tile:hover {
+    background-color: white;
+    cursor: pointer;
+}
