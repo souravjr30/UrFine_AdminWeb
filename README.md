@@ -50,22 +50,24 @@ The **UrFine Admin Website** is a crucial part of the **UrFine Palliative Care B
 
 ## Screenshots
 
+### Login
+![Dashboard Screenshot](https://github.com/souravjr30/UrFine_AdminWeb/blob/main/src/Screenshot%202024-12-06%20201338.png)
+
 ### Dashboard
-![Dashboard Screenshot](path/to/dashboard-screenshot.png)
+![Dashboard Screenshot](https://github.com/souravjr30/UrFine_AdminWeb/blob/main/src/Screenshot%202024-12-06%20201553.png)
 
 ### Booking Requests
-![Booking Requests Screenshot](path/to/booking-requests-screenshot.png)
+![Booking Requests Screenshot](https://github.com/souravjr30/UrFine_AdminWeb/blob/main/src/Screenshot%202024-12-06%20201621.png)
 
-### Schedule Management
-![Schedule Management Screenshot](path/to/schedule-management-screenshot.png)
+### Upcoming Schdules
+![Schedule Management Screenshot](https://github.com/souravjr30/UrFine_AdminWeb/blob/main/src/Screenshot%202024-12-06%20201756.png)
 
 ### Service Management
-![Service Management Screenshot](path/to/service-management-screenshot.png)
+![Service Management Screenshot](https://github.com/souravjr30/UrFine_AdminWeb/blob/main/src/Screenshot%202024-12-06%20201653.png)
 
-### Patient Consultation History
-![Patient Consultation History Screenshot](path/to/consultation-history-screenshot.png)
+### Patient Details
+![Patient Consultation History Screenshot](https://github.com/souravjr30/UrFine_AdminWeb/blob/main/src/Screenshot%202024-12-06%20201723.png)
 
-*(Replace `path/to/...` with the actual paths to your screenshots.)*
 
 ---
 
